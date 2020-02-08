@@ -121,7 +121,7 @@ function needRequest() {
 function ajaxRequest() {
     // realiza requisição e salva em 'itens'
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://apguilherme.github.io/JSONforTest/jsontest.json');
+    xhr.open('GET', 'https://apguilherme.github.io/JSONforTest-backend/jsontest.json');
     xhr.send(null);
     xhr.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
